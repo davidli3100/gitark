@@ -8,6 +8,8 @@
 | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [Download for Chrome](https://chrome.google.com/webstore/detail/gitark/pajmlahbnmcmbfdmmcacaojpedjcdjgm)                                                                                                          | [Download for Firefox](https://addons.mozilla.org/en-US/firefox/addon/gitark/)                                                                                                                                |
 
+> This is a slightly updated version as the original author's version of the theme had a few styling issues. This version also completely disables dark mode on the Topics feed as it is not styled properly (for now at least)
+
 > Google won't let someone publish a newer version without payment & i'm not paying them for an extension. If you want to use gitark on chrome you can simply download the files and use gitark as an unpacked ext. inside chrome by going to chrome://extensions and enabling developer mode.
 
 ### Preview
