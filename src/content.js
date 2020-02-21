@@ -7,7 +7,13 @@ function ready(eventHandler) {
 }
 
 ready(function () {
+    const header1 = document.getElementsByClassName("pagehead");
+    const header2 = document.getElementsByClassName("pagehead repohead hx_repohead readability-menu bg-gray-light pb-0 pt-3");
+    // const header3 = 
 
+    if (header1.length > 0) { header1[0].style.setProperty('background-color', 'rgb(45,51,58)', 'important') }
+    if (header2.length > 0) { header2[0].style.setProperty('background-color', 'rgb(45,51,58)', 'important') }
+    
     // meta tag for loading font
 
     var meta = document.createElement("meta")

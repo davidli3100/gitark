@@ -13,6 +13,9 @@
     "content_scripts": [{
         "css": ["src/style.css"],
         "matches": ["https://github.com/*"],
+        "exclude_matches": [
+            "https://github.com/topics/*"
+        ],
         "js": ["src/content.js"],
         "run_at": "document_start"
     }]
